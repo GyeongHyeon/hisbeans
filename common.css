@@ -1,0 +1,29 @@
+ * {
+    background:#000; color:#fff;
+
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%; /* 헤더 너비 설정 (필요에 따라 조정하세요) */
+    height: 80px;
+    border:1px solid #fff;
+  }
+  
+  .nav_bar ul {
+    width: 80%;
+    margin: 0 auto;
+    padding:20px 0 ;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+li {
+    width:30%;
+    margin:0 10%;
+}
+  p{
+    margin: 10px 0;
+  }
