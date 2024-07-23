@@ -23,15 +23,13 @@ header {
   }
 li {
     width:20%;
-    height:110px;
-    line-height: 50px;
+    overflow: hidden ;
+    height:30px;
     border: 0.1em solid #fff;
     text-align: center;
     padding: 5px 0;
 }
-li a{
-  width: 100%;
-}
+
 
 .section_box{
   width: 90%;
