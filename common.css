@@ -7,7 +7,8 @@ a {
 }
 header {
     width: 100%; /* 헤더 너비 설정 (필요에 따라 조정하세요) */
-    height: 100px;
+    height: 200px;
+    margin-buttom:10px;
   }
   
   .nav_bar ul {
@@ -22,7 +23,7 @@ header {
   }
 li {
     width:20%;
-    height:60px;
+    height:110px;
     line-height: 50px;
     border: 0.1em solid #fff;
     text-align: center;
@@ -32,7 +33,7 @@ li a{
   width: 100%;
 }
 
-s.section_box{
+.section_box{
   width: 90%;
   margin: 0 auto;
 }
