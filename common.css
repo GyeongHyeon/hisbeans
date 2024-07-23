@@ -13,24 +13,22 @@ header {
   
   .nav_bar ul {
     width: 95%;
-    height:95px;
-    margin: 0 auto;
+    height:130px;
+    margin: 50px auto;
     padding:20px 0 ;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  ul a{
-    width:20%
-  }
 ul a {
     width:20%;
-    overflow: hidden ;
-    height:30px;
+    height:90px;
     border: 0.1em solid #fff;
     text-align: center;
     padding: 5px 0;
+    font-size:1.5em;
+    line-height: 80px;
 }
 
 
@@ -43,5 +41,39 @@ ul a {
   }
 
   img{
-    width:360px;
+    width:350px;
   }
+/*태블릿환경*/
+  @media (max-width: 1030px) {
+    ul a {
+      font-size:1.2em;
+    }
+
+  }
+/* 모바일환경: 화면 너비가 500px 이하일 때 */
+@media (max-width: 500px) {
+  .nav_bar ul {
+    width: 95%;
+    height: 95px;
+    margin: 50px auto;
+    padding: 0; /* 여백 제거 */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Flexbox 항목 줄 바꿈 설정 */
+    justify-content: space-around; /* 좌우 양쪽 끝에서 균등 분산 */
+    align-items: center; /* 세로 중앙 정렬 */
+  }
+  
+  ul a {
+    width: 33.33%; /* 화면 너비 3분의 1 할당 (필요에 따라 조정 가능) */
+    height: 45px;
+    border: 0.1em solid #fff;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top:15px;
+    font-size: 0.9em; 
+    flex-basis: auto; /* 기본 너비 자동 설정 */
+    line-height: 35px;
+  }
+  
+}
