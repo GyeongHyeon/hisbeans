@@ -21,7 +21,10 @@ header {
     justify-content: space-between;
     align-items: center;
   }
-li {
+  ul a{
+    width:20%
+  }
+ul a {
     width:20%;
     overflow: hidden ;
     height:30px;
