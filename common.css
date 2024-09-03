@@ -49,6 +49,7 @@ ul a {
 .section_box{
   width: 90%;
   margin: 0 auto;
+  border:1px solid #fff;
 }
   p{
     margin: 10px 0;
